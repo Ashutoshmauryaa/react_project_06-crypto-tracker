@@ -18,16 +18,7 @@ const style = {
   color: "white",
   borderRadius: 5,
 };
-const google = {
-  //   width: 400,
-  //   padding: 24,
-  //   paddingTop: 0,
-  display: "flex",
-  flexDirection: "column",
-  textAlign: "center",
-  gap: 20,
-  fontSize: 20,
-};
+
 export default function TransitionsModal() {
   const [open, setOpen] = React.useState(false);
   const [value, setValue] = React.useState(0);

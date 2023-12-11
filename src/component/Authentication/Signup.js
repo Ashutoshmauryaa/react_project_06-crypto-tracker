@@ -3,7 +3,6 @@ import React, { useState } from "react";
 import { CryptoState } from "../../CryptoContext";
 import { createUserWithEmailAndPassword } from "firebase/auth";
 import { auth } from "../../firebase";
-import GoogleButton from "react-google-button";
 
 const Signup = ({ handleClose }) => {
   const [email, setEmail] = useState("");
